@@ -1,0 +1,4 @@
+I have the baseline code worked out for gathering the data together based 
+on the same names and then spreading it out and making the data wide.
+I'm having issues now with the data when spread the variables default to 0s and 1s.
+I'm currently trying to fix this issue and then I'll be able to combine and get rid of certain columns to better fit like our data.

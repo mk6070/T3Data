@@ -1,3 +1,10 @@
+install.packages("readr")
+install.packages("dplyr")
+install.packages("magrittr")
+install.packages("reshape2")
+install.packages("tidyr")
+install.packages("devtools")
+
 PhenotypeTrials_wheat <- read_csv("~/Downloads/PhenotypeTrials_wheat.csv")
 PhenotypeData_wheat <- read_csv("~/Downloads/PhenotypeData_wheat.csv")
 GeneticCharacters_wheat <- read_csv("~/Downloads/GeneticCharacters_wheat.csv")

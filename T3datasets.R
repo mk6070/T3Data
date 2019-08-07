@@ -13,3 +13,5 @@ PhenotypeData_Spread <- dcast(PhenotypeData_melt, Trial ~ Trait + variable, valu
 write.csv(GC_Wheat_Spread,'Genetic Characters')
 write.csv(PhenotypeData_Spread,'Phenotype Data')
 
+meta <- PhenotypeTrials_wheat %>% select(Trial, location, latitude, longitude)
+names(meta) <- c("Experiment", "Location", "WS Lat", "WS Lon")

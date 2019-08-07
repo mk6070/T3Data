@@ -10,3 +10,6 @@ GC_Wheat_Spread <- dcast(GC_Wheat_melt, Nae ~ Property + variable, value.var = "
 PhenotypeData_melt <- melt(PhenotypeData_wheat, id=c("Trial", "Trait"))
 PhenotypeData_Spread <- dcast(PhenotypeData_melt, Trial ~ Trait + variable, value.var="value")
 
+write.csv(GC_Wheat_Spread,'Genetic Characters')
+write.csv(PhenotypeData_Spread,'Phenotype Data')
+
